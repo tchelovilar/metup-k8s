@@ -24,6 +24,12 @@
 - Gerenciamento de Deployment
 - Multi-Cloud
 
+---
+
+# Otimização de Recursos
+
+![Excesso de Containers em um Navio](files/container_fail.jpg)
+
 
 ---
 
@@ -32,15 +38,21 @@
 - Orquestrar micro serviços, serviços, self-healing, load balancer, rolling updates...
 - Master e Nodes
 - Declarative model e Desired State
-- Objetos: Pods, Services, Deployments...
-
+- Objetos: Pods, Services, Deployments, Statefulsets...
 
 ---
 
-# Otimização de Recursos
+## Declarative model e Desired State
 
-![Excesso de Containers em um Navio](files/container_fail.jpg)
+img
 
+---
+
+## Pods
+
+Containers são executados dentro de Pods
+Lifecycle: Eles nascem, vivem e morrem, e sua vida pode ser curta
+Pode ser executado mais de um container em um Pod?
 
 ---
 
